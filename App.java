@@ -5,11 +5,12 @@ class App {
 	public static void main (String[] args) {
 		Scanner sc = new Scanner(System.in);
 		
-		System.out.print("Szam 1-10ig: ");
+		System.out.print("Szam 1-12ig: ");
 		int szam = sc.nextInt();
 		
-		if(szam<1 || szam>10){
+		if(szam<1 || szam>12){
 			System.out.println("Nem megfelelo szam");
+			System.out.println("1-tol -- 12-ig");
 			System.exit(0);
 		}
 		
@@ -44,6 +45,13 @@ class App {
 			case 10:
 				System.out.println("tiz");
 				break;
+			case 11:
+				System.out.println("tizenegy");
+				break;
+			case 12:
+				System.out.println("tizenketto");
+				break;
+			
 			
 				
 		}
